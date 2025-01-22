@@ -1,0 +1,100 @@
+Is the rice free of discoloration (brown spots, black specks)?
+Is the rice free of foreign matter (stones, sticks, insects)?
+Is the rice free of broken grains (more than 5%)?
+Is the rice free of visible mold or mildew?
+Is the rice free of excessive moisture (clumping)?
+Is the rice a uniform color (within the expected variety)?
+Is the rice free of off-odors (musty, sour)?
+Is the rice free of discolored grains (yellowish, reddish)?
+Is the rice free of insect fragments?
+Is the rice free of rodent droppings?
+Is the rice free of bird feathers?
+Is the rice free of sand or grit?
+Is the rice free of dust or chaff?
+Is the rice free of any visible signs of damage?
+Is the rice free of any visible signs of moisture damage?
+Is the rice free of any visible signs of insect infestation?
+Is the rice free of any visible signs of rodent infestation?
+Is the rice free of any visible signs of fungal growth?
+Is the rice free of any visible signs of bacterial contamination?
+Is the rice free of any visible signs of chemical contamination?
+Is the rice free of any off-flavors (bitter, sour, rancid)?
+Is the rice free of any metallic or chemical tastes?
+Is the rice free of any fishy or musty odors after cooking?
+Is the rice free of any beany or grassy off-flavors?
+Is the rice free of any unpleasant aftertaste?
+Is the rice free of any gritty texture after cooking?
+Is the rice soft and fluffy after cooking?
+Is the rice free of any hard or undercooked grains?
+Is the rice free of any sticky or gummy grains?
+Is the rice free of any chalky grains (hard, opaque)?
+Is the rice within the acceptable moisture content range for the variety?
+Is the rice within the acceptable broken rice percentage (< 5%)?
+Is the rice within the acceptable head rice percentage (≥ 90%)?
+Is the rice within the acceptable chalkiness percentage (<5%)?
+Is the rice within the expected gelatinization temperature range for the variety?
+Is the rice within the expected amylose content range for the variety?
+Is the rice within the expected volume expansion after cooking?
+Is the rice within the expected cooking time for the variety?
+Is the rice within the expected water absorption rate for the variety?
+Is the rice within the acceptable stickiness index range?
+Is the rice within the acceptable protein content range for the variety?
+Is the rice within the acceptable fat content range for the variety?
+Is the rice within the acceptable ash content range for the variety?
+Is the rice free of aflatoxin levels above regulatory limits?
+Is the rice free of pesticide residue levels above maximum residue limits?
+Is the rice free of heavy metal content (lead, cadmium, etc.) above regulatory limits?
+Is the rice free of arsenic levels above regulatory limits?
+Is the rice free of mycotoxin levels (other than aflatoxin) above safe limits?
+Is the rice free of any detectable levels of genetically modified organisms (GMOs)?
+Is the rice free of any known allergens (e.g., gluten)?
+Is the rice free of E. coli contamination?
+Is the rice free of Salmonella contamination?
+Is the rice free of Staphylococcus aureus contamination?
+Is the rice free of Bacillus cereus contamination?
+Is the rice free of Listeria monocytogenes contamination?
+Is the rice within acceptable limits for total plate count (aerobic bacteria)?
+Is the rice within acceptable limits for mold count?
+Is the rice within acceptable limits for yeast count?
+Is the rice within acceptable limits for Enterobacteriaceae count?
+Is the rice within acceptable limits for Coliform count?
+Is the rice correctly identified as the declared variety (using DNA-based methods)?
+Is the rice free of any off-type grains within the variety?
+Is the rice free of any detectable foodborne pathogens (using DNA methods)?
+Does the rice possess the expected genetic markers related to cooking and eating quality?
+Is the rice free of any undesirable genetic mutations?
+Is the rice within the expected range of genetic diversity for the variety?
+Does the rice match the expected genetic profile for the variety?
+Is the rice free of any evidence of adulteration with other rice varieties?
+Is the rice free of any evidence of genetic engineering not declared on the label?
+Is the rice free of any evidence of irradiation (if not permitted)?
+Is the appearance of cooked rice visually appealing (color, sheen, texture)?
+Is the aroma of cooked rice pleasant and free of off-odors?
+Is the flavor of cooked rice neutral and free of off-flavors?
+Is the texture of cooked rice soft, fluffy, and free of any undesirable qualities?
+Is the chewiness of cooked rice appropriate for the variety?
+Do the grains of cooked rice separate easily?
+Is the overall acceptability of cooked rice high as determined by a trained panel?
+Is the overall acceptability of cooked rice high as determined by consumer surveys?
+Is the rice suitable for the intended cooking methods (e.g., steaming, frying)?
+Is the rice compatible with different dishes?
+Is the rice suitable for making sushi?
+Is the rice suitable for making risotto?
+Is the rice suitable for making rice pudding?
+Is the rice suitable for making fried rice?
+Is the rice suitable for making pilaf?
+Is the rice suitable for making congee?
+Is the rice suitable for making sweet rice dishes?
+Is the rice suitable for making savory rice dishes?
+Is the rice suitable for making ethnic dishes specific to its origin?
+Is the rice suitable for making alcoholic beverages (if applicable)?
+Is the rice free of any detectable levels of radioactive contamination?
+Is the rice free of any detectable levels of microplastics?
+Is the rice free of any detectable levels of nanoplastics?
+Is the rice free of any detectable levels of emerging contaminants?
+Is the rice free of any detectable levels of persistent organic pollutants (POPs)?
+Is the rice free of any detectable levels of endocrine-disrupting chemicals (EDCs)?
+Is the rice free of any detectable levels of pharmaceutical residues?
+Is the rice free of any detectable levels of personal care product residues?
+Is the rice produced and processed in accordance with sustainable agricultural practices?
+Is the rice produced and processed in accordance with ethical and social responsibility standards?
