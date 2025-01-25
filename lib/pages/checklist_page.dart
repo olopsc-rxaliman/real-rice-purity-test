@@ -42,72 +42,70 @@ class _ChecklistPageState extends State<ChecklistPage> {
                 opacity: const AlwaysStoppedAnimation(0.1),
               ),
             ),
-            SizedBox(
-              height: MediaQuery.of(context).size.height,
-              child: SingleChildScrollView(
-                child: Column(
-                  children: [
-                    Padding(
-                      padding: const EdgeInsets.fromLTRB(10, 10, 10, 20),
-                      child: RichText(
-                        textAlign: TextAlign.center,
-                        text: const TextSpan(
-                            style: TextStyle(
-                              fontSize: 32,
-                              fontFamily: 'Baskerville',
-                              fontWeight: FontWeight.bold,
-                            ),
-                            children: [
-                              TextSpan(
-                                  text: 'The Real\n',
-                                  style: TextStyle(
-                                      color: Colors.red, fontSize: 16)),
-                              TextSpan(
-                                  text: 'Rice Purity Test',
-                                  style: TextStyle(color: Colors.black)),
-                              TextSpan(
-                                text: '\nAnswer with honesty. Thank you',
-                                style: TextStyle(
-                                    color: Colors.black,
-                                    fontSize: 14,
-                                    fontWeight: FontWeight.normal),
-                              )
-                            ]),
-                      ),
-                    ),
-                    ListView.builder(
-                      itemBuilder: (context, index) => CheckboxListTile(
-                        key: ValueKey(checklist[index]['text']),
-                        checkColor: Colors.white,
-                        activeColor: Colors.black,
-                        controlAffinity: ListTileControlAffinity.leading,
-                        value: checklist[index]['checked'],
-                        onChanged: (value) {
-                          setState(() {
-                            checklist[index]['checked'] =
-                                !checklist[index]['checked'];
-                          });
-                        },
-                        title: Text(
-                          checklist[index]['question'],
-                          style: const TextStyle(
-                            fontFamily: 'Roboto',
-                            fontSize: 16,
-                          ),
+            ListView(
+              children: [
+                Padding(
+                  padding: const EdgeInsets.fromLTRB(10, 10, 10, 20),
+                  child: RichText(
+                    textAlign: TextAlign.center,
+                    text: const TextSpan(
+                        style: TextStyle(
+                          fontSize: 32,
+                          fontFamily: 'Baskerville',
+                          fontWeight: FontWeight.bold,
                         ),
+                        children: [
+                          TextSpan(
+                              text: 'The Real\n',
+                              style: TextStyle(
+                                  color: Colors.red, fontSize: 16)),
+                          TextSpan(
+                              text: 'Rice Purity Test',
+                              style: TextStyle(color: Colors.black)),
+                          TextSpan(
+                            text: '\nAnswer with honesty. Thank you',
+                            style: TextStyle(
+                                color: Colors.black,
+                                fontSize: 14,
+                                fontWeight: FontWeight.normal),
+                          )
+                        ]),
+                  ),
+                ),
+                ListView.builder(
+                  physics: const NeverScrollableScrollPhysics(),
+                  itemBuilder: (context, index) => CheckboxListTile(
+                    key: ValueKey(checklist[index]['text']),
+                    checkColor: Colors.white,
+                    activeColor: Colors.black,
+                    controlAffinity: ListTileControlAffinity.leading,
+                    value: checklist[index]['checked'],
+                    onChanged: (value) {
+                      setState(() {
+                        checklist[index]['checked'] =
+                            !checklist[index]['checked'];
+                      });
+                    },
+                    title: Text(
+                      checklist[index]['question'],
+                      style: const TextStyle(
+                        fontFamily: 'Roboto',
+                        fontSize: 16,
                       ),
-                      itemCount: checklist.length,
-                      shrinkWrap: true,
                     ),
-                    const SizedBox(height: 10),
-                    TextButton(
+                  ),
+                  itemCount: checklist.length,
+                  shrinkWrap: true,
+                ),
+                const SizedBox(height: 10),
+                Center(
+                  child: IntrinsicWidth(
+                    child: TextButton(
                       onPressed: () {
                         int checks = 0;
-
                         for (var item in checklist) {
                           if (item['checked'] == true) checks++;
                         }
-
                         Navigator.of(context).pushReplacement(MaterialPageRoute(
                             builder: (context) => ResultsPage(score: checks)));
                       },
@@ -120,10 +118,10 @@ class _ChecklistPageState extends State<ChecklistPage> {
                         style: TextStyle(fontFamily: 'Roboto'),
                       ),
                     ),
-                    const SizedBox(height: 20),
-                  ],
+                  ),
                 ),
-              ),
+                const SizedBox(height: 20),
+              ],
             ),
           ],
         ));
