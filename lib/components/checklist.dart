@@ -1,4 +1,4 @@
-List<Map> checklist = [
+List<Map> chklst = [
   {'question':"Is the rice free of discoloration (brown spots, black specks)?",'checked':false},
   {'question':"Is the rice free of foreign matter (stones, sticks, insects)?",'checked':false},
   {'question':"Is the rice free of broken grains (more than 5%)?",'checked':false},
